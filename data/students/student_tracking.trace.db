@@ -1,0 +1,3 @@
+10-09 21:19:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "STUDENTS" not found; SQL statement:
+DROP TABLE STUDENTS [42102-168]

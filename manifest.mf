@@ -1,0 +1,4 @@
+JavaFX-Application-Class: com.tutions.student.Main
+JavaFX-Class-Path: 
+Created-By: JavaFX Packager
+Main-Class: com/javafx/main/Main

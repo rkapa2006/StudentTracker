@@ -1,0 +1,28 @@
+maven ruun 
+
+mvn -Dhttps.protocols=TLSv1.2 clean install
+
+mvn install:install-file -Dfile="C:\Program Files\Oracle\JavaFX 2.2 SDK\rt\lib\jfxrt.jar" -DgroupId=jfxrt -DartifactId=jfxrt -Dversion=2.2 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/dsn.jar -DgroupId=dsn -DartifactId=dsn -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/h2-1.3.168.jar -DgroupId=h2-1.3.168 -DartifactId=h2-1.3.168 -Dversion=1.0 -Dpackaging=jar
+
+
+mvn install:install-file -Dfile=lib/jfxtras-labs-2.2-r1.jar -DgroupId=jfxtras-labs-2.2-r1 -DartifactId=jfxtras-labs-2.2-r1 -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/log4j-1.2.17.jar -DgroupId=log4j-1.2.17 -DartifactId=log4j-1.2.17 -Dversion=1.0 -Dpackaging=jar
+
+
+mvn install:install-file -Dfile=lib/itextpdf-5.3.3.jar -DgroupId=itextpdf-5.3.3 -DartifactId=itextpdf-5.3.3 -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/PDFRenderer-0.9.0.jar -DgroupId=PDFRenderer-0.9.0 -DartifactId=PDFRenderer-0.9.0 -Dversion=1.0 -Dpackaging=jar
+
+
+mvn install:install-file -Dfile=lib/mailapi.jar -DgroupId=mailapi -DartifactId=mailapi -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/pop3.jar -DgroupId=pop3 -DartifactId=pop3 -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/smtp.jar -DgroupId=smtp -DartifactId=smtp -Dversion=1.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=lib/imap.jar -DgroupId=imap -DartifactId=imap -Dversion=1.0 -Dpackaging=jar

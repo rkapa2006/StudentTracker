@@ -1,0 +1,208 @@
+#title {
+	-fx-fill: white;
+	-fx-font: bold 25pt "ariel";
+	-fx-text-alignment: center;
+}
+
+#contentpane {
+	-fx-background-color: white;
+	-fx-background-radius: 10, 10, 10, 10;
+	-fx-background-insets: 2
+}
+
+#title-pane {
+	-fx-background-color: #008000;
+	-fx-background-radius: 10, 10, 10, 10;
+	-fx-background-insets: 2;
+}
+
+#footer {
+	-fx-fill: white;
+	-fx-font: normal 15pt "ariel";
+	-fx-text-alignment: center;
+}
+
+#footer-pane {
+	-fx-background-color: #8b4513;
+	-fx-background-radius: 10, 10, 10, 10;
+	-fx-background-insets: 2;
+}
+
+#student-list-pane {
+	-fx-background-color: white;
+	-fx-background-radius: 1, 1, 1, 1;
+	-fx-background-insets: 2;
+	
+	-fx-border-radius:  1, 1, 1, 1;
+    -fx-border-style: solid;
+    -fx-border-width: 0;
+    -fx-border-color: gray;
+}
+
+#new-student-label {
+    -fx-font: regular 14 "ariel";
+    -fx-text-alignment: center;
+    
+    -fx-border-style: solid;
+    -fx-border-width: 0;
+    -fx-border-color:null;
+}
+
+#error-field {
+	-fx-font: regular 14 "ariel";
+    -fx-underline: true;
+    -fx-text-alignment: center;
+    
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: red;
+}
+
+#success-label {
+	-fx-font: regular 14 "ariel";
+	-fx-fill: green;
+}
+
+#error-label {
+	-fx-font: regular 12 "ariel";
+	-fx-fill: red;
+}
+
+#sub-title {
+    -fx-font: bold 15 "ariel";
+    -fx-text-alignment: center;
+    -fx-padding:5;
+}
+
+#student-entry-title {	
+	-fx-text-fill: white;
+    -fx-font: normal 15 "ariel";
+    -fx-text-alignment: center;
+    -fx-background-color: null;
+   
+   	-fx-border-radius:  1, 1, 1, 1;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    
+}
+
+#student-list-name {	
+	-fx-text-fill: black;
+    -fx-font: bold 14 "ariel";
+    -fx-text-alignment: left;
+}
+
+#student-hyperlink {
+	-fx-underline: true;
+    -fx-font: normal 13 "ariel";
+    -fx-text-alignment: left;
+    -fx-hpos:left;
+    -fx-graphic-hpos:left;
+}
+
+#payment-detail-title {	
+	-fx-text-fill: white;
+    -fx-font: bold 15 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-receipt-title {	
+	-fx-text-fill: white;
+    -fx-font: bold 15 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-receipt-label {
+	-fx-fill: black;
+    -fx-font: normal 14 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-receipt-field {
+	-fx-fill: black;
+    -fx-font: bold 14 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-receipt-pane {
+	-fx-background-color: white;
+	-fx-background-radius: 5, 5, 5, 5;
+	-fx-background-insets: 2;
+    
+    -fx-border-radius:  5, 5, 5, 5;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color:blue;
+	
+}
+
+#payment-detail-content {	
+	-fx-text-fill: white;
+    -fx-font: normal 15 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-hyperlink {
+	-fx-text-fill: blue;
+	-fx-underline: true;
+    -fx-font: normal 15 "ariel";
+    -fx-text-alignment: center;
+}
+
+#payment-header-pane {
+	-fx-background-color: white;
+	-fx-background-radius: 1, 1, 1, 1;
+	-fx-background-insets: 2;
+    
+    -fx-border-radius:  1, 1, 1, 1;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color:gray;
+}
+
+#student-entry-pane {
+	-fx-background-color: null;
+	-fx-background-radius: 1, 1, 1, 1;
+	-fx-background-insets: 2;
+	
+	-fx-text-fill: white;
+    -fx-font: normal 13 "ariel";
+    -fx-text-alignment: center;
+    
+    -fx-border-radius:  1, 1, 1, 1;
+    -fx-border-style: solid;
+    -fx-border-width: 0;
+    -fx-border-color:null;
+}
+
+#button-close {
+	
+    -fx-background-color: null;
+	-fx-background-radius: 1, 1, 1, 1;
+	-fx-background-insets: 0;
+	
+    -fx-text-fill: white;
+    -fx-font: bold 20 "ariel";
+    -fx-text-alignment: center;
+   
+   	-fx-border-radius:  1, 1, 1, 1;
+    -fx-border-style: solid;
+    -fx-border-width: 0;
+    -fx-border-color: white;
+    -fx-padding:0 5 0 5;
+    
+}
+
+
+#rootPane {
+  -fx-border-insets: 5;
+
+  -fx-background-insets: 0;
+
+  -fx-border-radius: 6;
+  -fx-border-color: gray;
+  -fx-border-style: solid;
+  -fx-border-width: 1;
+  -fx-effect: dropshadow(three-pass-box, rgba(100, 100, 100, 1), 24, 0.5, 0, 0);
+}
