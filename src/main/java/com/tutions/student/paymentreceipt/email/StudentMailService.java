@@ -50,10 +50,7 @@ public class StudentMailService {
 	private static final String SMTP_SSL_ENABLE_VALUE = "true";
 
 	private static final String SMTP_AUTH = "mail.smtp.auth";
-	private static final String SMTP_AUTH_VALUE = "true";
-
-	private static final String SMTP_USER = "rkapa2006@yahoo.com";
-	private static final String SMTP_PASSWORD = "cnsgtjeesnmovevw"; //"Mad#1976";
+	private static final String SMTP_AUTH_VALUE = "true"
 
 	private static StudentMailService studentMailService;
 
